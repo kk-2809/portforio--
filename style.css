@@ -80,19 +80,29 @@ img{
   width: 100%;
   height: 100vh;
   text-align: center;
-  background-color: rgb(255, 188, 154);
-  opacity: 0;
-  z-index: 1000;
+  background-color: rgb(255, 188, 154, 0.5);
+  display: none;
   transition: all 0.5s;
+}
+
+.nav.active{
+  display: block;
+}
+
+.ha{
+  position: absolute;
+  transform: rotateY(-50%) translateX(-50%);
 }
 
 .ha-li a{
   display: block;
+  margin: 0 480px;
   font-size: 48px;
   color: #ffffff;
   text-decoration: none;
   padding: 56px 0;
   text-transform: uppercase;
+  font-family: "Comic Sans MS";
 }
 
 .ha-li a:hover{
