@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 *{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-style: normal;
@@ -19,10 +19,15 @@ img{
   object-fit: cover;
 }
 
+
+/* header */
+
+header{
+}
+
 .backgroud-darkbrown{
   position: relative;
   z-index: -1000;
-  /* vertical-align: bottom; */
 }
 
 .icon{
@@ -39,6 +44,7 @@ img{
   bottom: 0;
   right: 0;
   left: 0;
+  z-index: 1000;
   transition: opacity .5s visibility .5s;
 }
 
@@ -98,7 +104,7 @@ img{
   display: block;
   margin: 0 480px;
   font-size: 48px;
-  color: #ffffff;
+  color: white;
   text-decoration: none;
   padding: 56px 0;
   text-transform: uppercase;
@@ -126,4 +132,84 @@ img{
   color: white;
   font-size: 24px;
   font-family: Yu Mincho;
+}
+
+
+/* main */
+
+.language{
+  position: absolute;
+  top: 520px;
+  left: 24px;
+  font-size: 36px;
+  color: white;
+  font-family: Yu Mincho;
+}
+
+.background-litebrown{
+  position: relative;
+}
+
+.skills{
+  display: flex;
+  position: absolute;
+  top: 600px;
+}
+
+.skill-set{
+  padding: 0 40px;
+  display: flex;
+}
+
+.skill-img{
+  width: 84px;
+  height: 84px;
+}
+
+.skill{
+  font-size: 36px;
+  margin: 24px 0 0 16px;
+  font-family: "Comic Sans MS";
+}
+
+.main-profiles{
+  position: absolute;
+  top: 720px;
+  left: 24px;
+  color: white;
+}
+
+.profile-name{
+  font-size: 64px;
+  margin-left: 200px;
+  font-family: Ms PGothic;
+}
+
+.name{
+  color: rgb(172, 114, 66);
+}
+
+.profile{
+  font-size: 24px;
+  margin-left: 80px;
+  text-align: center;
+  font-family: Yu Mincho;
+}
+
+.hr-1{
+  border-top: 2px solid white;
+  margin: 24px 160px;
+  width: 60%;
+}
+
+.main-profile{
+  font-size: 20px;
+  margin-left: 200px;
+}
+
+.myphoto{
+  position: absolute;
+  width: 50%;
+  right: -480px;
+  top: -80px;
 }
