@@ -22,9 +22,6 @@ img{
 
 /* header */
 
-header{
-}
-
 .backgroud-darkbrown{
   position: relative;
   z-index: -1000;
@@ -212,4 +209,151 @@ header{
   width: 50%;
   right: -480px;
   top: -80px;
+}
+
+.backgroud-brown{
+  position: relative;
+}
+
+.service{
+  position: absolute;
+  top: 1200px;
+  left: 80px;
+  color: white;
+  font-size: 48px;
+}
+
+.containers-1{
+  position: absolute;
+  top: 1200px;
+  display: inline-block;
+  margin: 160px 0;
+  padding: 16px 10px;
+  color: black;
+  font-size: 24px;
+  background: #eee;
+  border-radius: 15px;
+  left: 32px;
+  text-align: center;
+}
+
+.containers-1:before{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-top: 15px solid #eee;
+}
+
+.containers-1 .container-1{
+  margin: 0;
+  padding: 0;
+}
+
+.containers-2{
+  position: absolute;
+  top: 1400px;
+  left: 540px;
+  display: inline-block;
+  margin: 160px 40px;
+  padding: 16px 10px;
+  color: black;
+  font-size: 24px;
+  background: #eee;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.containers-2:before{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-top: 15px solid #eee;
+}
+
+.containers-2 .container-2{
+  margin: 0;
+  padding: 0;
+}
+
+.service-1{
+  color: white;
+  font-size: 48px;
+  margin: 32px 64px;
+}
+
+.services-2{
+  position: relative;
+  margin: 32px 24px 72px;
+  padding: 32px 80px;
+  border: solid 3px white;
+  border-radius: 8px;
+  width: 46%;
+  float: left;
+  background-image: url(img/backgroud-pc.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.services-2 .service-2{
+  position: absolute;
+  display: inline-block;
+  top: -32px;
+  left: 32px;
+  padding: 0 8px;
+  line-height: 1;
+  font-size: 48px;
+  color: rgb(252, 158, 88);
+  background: rgb(252, 231, 213);
+  font-weight: bold;
+}
+
+.services-2 .priceall{
+  margin: 0;
+  padding: 0;
+}
+
+.price{
+  font-size: 64px;
+  font-weight: 32px;
+}
+
+.prices{
+  font-family: Yu Mincho;
+}
+
+.services-3{
+  position: relative;
+  margin: 32px 640px 72px;
+  padding: 32px 80px;
+  border: solid 3px white;
+  border-radius: 8px;
+  width: 46%;
+  float: left;
+  background-image: url(img/backgroud-pc.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.services-3 .service-3{
+  position: absolute;
+  display: inline-block;
+  top: -32px;
+  left: 32px;
+  padding: 0 8px;
+  line-height: 1;
+  font-size: 48px;
+  color: rgb(252, 158, 88);
+  background: rgb(252, 231, 213);
+  font-weight: bold;
+}
+
+.services-3 .priceall{
+  margin: 0;
+  padding: 0;
 }
