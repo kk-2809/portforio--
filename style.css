@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,11 +9,11 @@
   line-height: 1.5em;
 }
 
-body{
+body {
   overflow-x: hidden;
 }
 
-img{
+img {
   width: 100%;
   height: 100vh;
   object-fit: cover;
@@ -22,12 +22,17 @@ img{
 
 /* header */
 
-.backgroud-darkbrown{
+header {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.backgroud-darkbrown {
   position: relative;
   z-index: -1000;
 }
 
-.icon{
+.icon {
   width: 40%;
   position: absolute;
   left: 720px;
@@ -35,17 +40,17 @@ img{
 
 /* hamburger */
 
-.overlay{
+.overlay {
   position: fixed;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
-  z-index: 1000;
+  z-index: 100;
   transition: opacity .5s visibility .5s;
 }
 
-.hamburger-menu{
+.hamburger-menu {
   position: absolute;
   top: 16px;
   right: 32px;
@@ -59,7 +64,7 @@ img{
   transition: transform 0.3s;
 }
 
-.hamburger-line{
+.hamburger-line {
   width: 100%;
   height: 2px;
   background-color: rgb(249, 246, 246);
@@ -67,19 +72,19 @@ img{
   transition: background-color 0.3s;
 }
 
-.active .hamburger-line:nth-child(1){
+.active .hamburger-line:nth-child(1) {
   transform: translateY(6px) rotate(45deg);
 }
 
-.active .hamburger-line:nth-child(2){
+.active .hamburger-line:nth-child(2) {
   opacity: 0;
 }
 
-.active .hamburger-line:nth-child(3){
+.active .hamburger-line:nth-child(3) {
   transform: translateY(-6px) rotate(-45deg);
 }
 
-.nav{
+.nav {
   width: 100%;
   height: 100vh;
   text-align: center;
@@ -88,16 +93,16 @@ img{
   transition: all 0.5s;
 }
 
-.nav.active{
+.nav.active {
   display: block;
 }
 
-.ha{
+.ha {
   position: absolute;
   transform: rotateY(-50%) translateX(-50%);
 }
 
-.ha-li a{
+.ha-li a {
   display: block;
   margin: 0 480px;
   font-size: 48px;
@@ -108,12 +113,12 @@ img{
   font-family: "Comic Sans MS";
 }
 
-.ha-li a:hover{
+.ha-li a:hover {
   color: #ae6d04;
   transform: rotate(-10deg);
 }
 
-.title{
+.title {
   position: absolute;
   bottom: 40px;
   right: 160px;
@@ -122,7 +127,7 @@ img{
   font-family: "Comic Sans MS";
 }
 
-.title-name{
+.title-name {
   position: absolute;
   bottom: 16px;
   right: 160px;
@@ -134,7 +139,7 @@ img{
 
 /* main */
 
-.language{
+.language {
   position: absolute;
   top: 520px;
   left: 24px;
@@ -143,91 +148,90 @@ img{
   font-family: Yu Mincho;
 }
 
-.background-litebrown{
+.background-litebrown {
   position: relative;
 }
 
-.skills{
+.skills {
   display: flex;
   position: absolute;
   top: 600px;
 }
 
-.skill-set{
+.skill-set {
   padding: 0 40px;
   display: flex;
 }
 
-.skill-img{
+.skill-img {
   width: 84px;
   height: 84px;
 }
 
-.skill{
+.skill {
   font-size: 36px;
   margin: 24px 0 0 16px;
   font-family: "Comic Sans MS";
 }
 
-.main-profiles{
+.main-profiles {
   position: absolute;
   top: 720px;
   left: 24px;
   color: white;
 }
 
-.profile-name{
+.profile-name {
   font-size: 64px;
   margin-left: 200px;
   font-family: Ms PGothic;
 }
 
-.name{
+.name {
   color: rgb(172, 114, 66);
 }
 
-.profile{
+.profile {
   font-size: 24px;
   margin-left: 80px;
   text-align: center;
   font-family: Yu Mincho;
 }
 
-.hr-1{
+.hr-1 {
   border-top: 2px solid white;
   margin: 24px 160px;
   width: 60%;
 }
 
-.main-profile{
+.main-profile {
   font-size: 20px;
   margin-left: 200px;
 }
 
-.myphoto{
+.myphoto {
   position: absolute;
   width: 50%;
   right: -480px;
   top: -80px;
 }
 
-.backgroud-brown{
-  position: relative;
+.services {
+  background-image: url(img/background-brown.png);
+  background-repeat: no-repeat;
+  background-size: 112%;
 }
 
-.service{
-  position: absolute;
-  top: 1200px;
-  left: 80px;
+.service {
+  text-align: center;
   color: white;
   font-size: 48px;
 }
 
-.containers-1{
-  position: absolute;
-  top: 1200px;
+.containers-1 {
+  position: relative;
   display: inline-block;
-  margin: 160px 0;
+  margin: 64px 0;
   padding: 16px 10px;
   color: black;
   font-size: 24px;
@@ -237,7 +241,7 @@ img{
   text-align: center;
 }
 
-.containers-1:before{
+.containers-1:before {
   content: "";
   position: absolute;
   top: 100%;
@@ -247,18 +251,17 @@ img{
   border-top: 15px solid #eee;
 }
 
-.containers-1 .container-1{
+.containers-1 .container-1 {
   margin: 0;
   padding: 0;
 }
 
-.containers-2{
-  position: absolute;
-  top: 1400px;
-  left: 540px;
+.containers-2 {
+  position: relative;
   display: inline-block;
-  margin: 160px 40px;
-  padding: 16px 10px;
+  left: 560px;
+  margin: 16px 0;
+  padding: 16px 16px;
   color: black;
   font-size: 24px;
   background: #eee;
@@ -266,7 +269,7 @@ img{
   text-align: center;
 }
 
-.containers-2:before{
+.containers-2:before {
   content: "";
   position: absolute;
   top: 100%;
@@ -276,18 +279,18 @@ img{
   border-top: 15px solid #eee;
 }
 
-.containers-2 .container-2{
+.containers-2 .container-2 {
   margin: 0;
   padding: 0;
 }
 
-.service-1{
+.service-1 {
   color: white;
   font-size: 48px;
   margin: 32px 64px;
 }
 
-.services-2{
+.services-2 {
   position: relative;
   margin: 32px 24px 72px;
   padding: 32px 80px;
@@ -300,7 +303,7 @@ img{
   background-size: 100%;
 }
 
-.services-2 .service-2{
+.services-2 .service-2 {
   position: absolute;
   display: inline-block;
   top: -32px;
@@ -313,47 +316,173 @@ img{
   font-weight: bold;
 }
 
-.services-2 .priceall{
+.services-2 .priceall {
   margin: 0;
   padding: 0;
 }
 
-.price{
+.price {
   font-size: 64px;
   font-weight: 32px;
 }
 
-.prices{
+.prices {
   font-family: Yu Mincho;
 }
 
-.services-3{
-  position: relative;
-  margin: 32px 640px 72px;
-  padding: 32px 80px;
-  border: solid 3px white;
-  border-radius: 8px;
-  width: 46%;
-  float: left;
-  background-image: url(img/backgroud-pc.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-.services-3 .service-3{
-  position: absolute;
-  display: inline-block;
-  top: -32px;
-  left: 32px;
-  padding: 0 8px;
-  line-height: 1;
+.service-flow {
+  color: white;
   font-size: 48px;
-  color: rgb(252, 158, 88);
-  background: rgb(252, 231, 213);
-  font-weight: bold;
+  margin: 0 64px;
+  padding: 64px 0 16px;
 }
 
-.services-3 .priceall{
+.numbers {
+  display: flex;
+}
+
+.number-1 {
+  color: white;
+  font-size: 48px;
+  margin: 16px 160px 0;
+}
+
+.number-2 {
+  color: white;
+  font-size: 48px;
+  margin: 16px 160px 0;
+}
+
+.flow-main {
+  display: flex;
+}
+
+.flow {
+  padding: 16px 16px;
+  margin: 16px 64px;
+  text-align: center;
+  color: black;
+  background: #eee;
+  background-image: url(img/PC.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.51);
+  background-blend-mode: lighten;
+  border-top: solid 5px #d48845;
+  box-shadow: 0 3px 5px #805d46;
+  font-size: 24px;
+  width: 50%;
+}
+
+.flow-1 {
+  font-size: 24px;
+}
+
+.flow .flow-1 {
   margin: 0;
   padding: 0;
+}
+
+.hr-2 {
+  border-top: 2px solid white;
+  margin: 120px 160px 24px;
+  width: 75%;
+}
+
+.work {
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  padding: 64px 0;
+}
+
+.work-all{
+  display: flex;
+}
+
+.screenshot-cafe {
+  overflow-y: scroll;
+  width: 100%;
+  height: 640px;
+  z-index: 10000;
+}
+
+.cafe-img {
+  padding-left: 88px;
+  height: 1600px;
+}
+
+.work-contain {
+  margin: 36px 0 8px 280px;
+  position: absolute;
+  color: white;
+}
+
+.cafe-site {
+  display: inline-block;
+  margin: 64px 0 64px 200px;
+  text-decoration: none;
+  color: white;
+}
+
+.screenshot-artist{
+  overflow-y: scroll;
+  width: 80%;
+  height: 640px;
+  z-index: 10000;
+}
+
+.artist-img {
+  padding-left: 88px;
+  height: 1600px;
+}
+
+.background-end{
+  vertical-align: bottom;
+}
+
+.inquiry-form .inquiry-button{
+  position: absolute;
+  top: 4016px;
+  left: 560px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 240px;
+  padding: 10px 25px;
+  color: #543618;
+  transition: 0.3s ease-in-out;
+  font-weight: 600;
+  background: #eeee;
+  border-radius: 50px;
+  border: 0.2rem solid #89643f;
+  box-shadow: 0.2rem 0.2rem 0px 0.1rem #6c6c6c;
+}
+
+.inquiry-form a:hover {
+  transform: translate3d(0.2rem, 0.2rem, 0);
+  box-shadow: none;
+  opacity: 1;
+  transition: all 0.2s;
+}
+
+.inquiry-form a:after {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-top: 3px solid #543618;
+  border-right: 3px solid #543618;
+  transform: rotate(45deg) translateY(-50%);
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  border-radius: 1px;
+  transition: 0.3s ease-in-out;
+}
+
+.inquiry-button {
+  color: rgb(247, 174, 66);
+  text-decoration: none;
+  font-size: 24px;
 }
