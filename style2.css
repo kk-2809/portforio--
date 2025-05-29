@@ -71,13 +71,13 @@
   }  
 
   .skill-img {
-    width: 28px;
-    height: 28px;
+    width: 20px;
+    height: 20px;
   }
   
   .skill {
-    font-size: 20px;
-    margin: 4px 0 0 8px;
+    font-size: 16px;
+    margin: 4px 0 0 4px;
     font-family: "Comic Sans MS";
   }
 
@@ -89,7 +89,7 @@
   
   .main-profiles {
     position: absolute;
-    top: 1000px;
+    top: 900px;
     left: 32px;
     color: white;
   }
@@ -138,7 +138,7 @@
     display: inline-block;
     margin: 32px 0;
     color: black;
-    font-size: 12px;
+    font-size: 8px;
     background: #eee;
     border-radius: 15px;
     left: 20px;
@@ -152,7 +152,7 @@
     margin: 8px 0;
     padding: 16px 16px;
     color: black;
-    font-size: 12px;
+    font-size: 8px;
     background: #eee;
     border-radius: 15px;
     text-align: center;
@@ -295,7 +295,7 @@
   .inquiry-form .inquiry-button{
     position: absolute;
     top: 4120px;
-    left: 160px;
+    left: 120px;
     display: flex;
     justify-content: space-around;
     align-items: center;
