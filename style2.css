@@ -3,17 +3,17 @@
 @media (max-width: 600px){
   /* header */
   .icon{
-    width: 40%;
+    width: 60%;
     height: 60%;
     position: absolute;
-    left: 300px;
-    top: 160px;
+    left: 220px;
+    top: 120px;
   }
 
   .ha-li a {
     display: block;
-    margin: 0 200px;
-    font-size: 32px;
+    margin: 0 160px;
+    font-size: 28px;
     color: white;
     text-decoration: none;
     padding: 56px 0;
@@ -23,16 +23,16 @@
   
   .title {
     position: absolute;
-    bottom: 40px;
+    bottom: 96px;
     right: 50px;
-    font-size: 64px;
+    font-size: 52px;
     color: white;
     font-family: "Comic Sans MS";
   }
   
   .title-name {
     position: absolute;
-    bottom: 16px;
+    bottom: 64px;
     right: 50px;
     color: white;
     font-size: 24px;
@@ -42,6 +42,15 @@
 
   /* main */
 
+  .language {
+    position: absolute;
+    top: 530px;
+    left: 24px;
+    font-size: 28px;
+    color: white;
+    font-family: Yu Mincho;
+  }
+  
   .skills {
     display: flex;
     position: absolute;
@@ -54,41 +63,41 @@
   }  
 
   .skill-img {
-    width: 36px;
-    height: 36px;
+    width: 28px;
+    height: 28px;
   }
   
   .skill {
-    font-size: 24px;
+    font-size: 20px;
     margin: 4px 0 0 8px;
     font-family: "Comic Sans MS";
   }
 
   
   .main-profile {
-    font-size: 20px;
+    font-size: 16px;
     margin-left: 56px;
   }
   
   .main-profiles {
     position: absolute;
     top: 720px;
-    left: 8px;
+    left: -16px;
     color: white;
   }
   
   .profile-name {
-    font-size: 48px;
+    font-size: 32px;
     margin-left: 80px;
     font-family: Ms PGothic;
   }
   
   .profile {
-    font-size: 20px;
+    font-size: 16px;
     margin-left: 32px;
     text-align: left;
     font-family: Yu Mincho;
-  }
+  }  
   
   .hr-1 {
     border-top: 2px solid white;
@@ -98,8 +107,8 @@
   
   .myphoto {
     position: absolute;
-    width: 50%;
-    left: 380px;
+    width: 60%;
+    left: 304px;
   }
 
   .services {
@@ -111,7 +120,7 @@
   .service {
     text-align: center;
     color: white;
-    font-size: 24px;
+    font-size: 20px;
   }
   
   .containers-1 {
@@ -120,7 +129,7 @@
     margin: 64px 0;
     padding: 16px 10px;
     color: black;
-    font-size: 16px;
+    font-size: 12px;
     background: #eee;
     border-radius: 15px;
     left: 32px;
@@ -131,10 +140,10 @@
     position: relative;
     display: inline-block;
     left: 120px;
-    margin: 16px 0;
+    margin: 12px 0;
     padding: 16px 16px;
     color: black;
-    font-size: 16px;
+    font-size: 12px;
     background: #eee;
     border-radius: 15px;
     text-align: center;
@@ -143,7 +152,7 @@
   .service-1 {
     color: white;
     font-size: 36px;
-    margin: 32px 64px;
+    margin: 32px 32px;
   }
   
   .services-2 {
@@ -162,38 +171,38 @@
   .services-2 .service-2 {
     position: absolute;
     display: inline-block;
-    top: -32px;
+    top: -24px;
     left: 24px;
     padding: 0 8px;
     line-height: 1;
-    font-size: 40px;
+    font-size: 32px;
     color: rgb(252, 158, 88);
     background: rgb(252, 231, 213);
     font-weight: bold;
   }
   
   .price {
-    font-size: 56px;
+    font-size: 40px;
     font-weight: 32px;
   }
 
   .service-flow {
     color: white;
     font-size: 36px;
-    margin: 0 64px;
-    padding: 64px 0 16px;
+    margin: 0 32px;
+    padding: 32px 0 16px;
   }
   
   .number-1 {
     color: white;
     font-size: 24px;
-    margin: 16px 72px 0;
+    margin: 16px 56px 0;
   }
   
   .number-2 {
     color: white;
     font-size: 24px;
-    margin: 16px 72px 0;
+    margin: 16px 56px 0;
   }
   
   .flow {
@@ -213,7 +222,7 @@
   }
   
   .flow-1 {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .hr-2 {
@@ -226,7 +235,7 @@
     color: white;
     font-size: 36px;
     text-align: center;
-    padding: 64px 0;
+    padding: 32px 0;
   }
   
   .work-all{
@@ -253,7 +262,7 @@
   
   .cafe-site {
     display: inline-block;
-    margin: 64px 0 64px 160px;
+    margin: 64px 0 64px 88px;
     text-decoration: none;
     color: white;
   }
@@ -276,8 +285,8 @@
   
   .inquiry-form .inquiry-button{
     position: absolute;
-    top: 4160px;
-    left: 200px;
+    top: 4120px;
+    left: 160px;
     display: flex;
     justify-content: space-around;
     align-items: center;
