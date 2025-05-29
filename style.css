@@ -107,7 +107,7 @@ header {
 .ha-li a {
   display: block;
   margin: 0 480px;
-  font-size: 48px;
+  font-size: 40px;
   color: white;
   text-decoration: none;
   padding: 56px 0;
@@ -143,7 +143,7 @@ header {
 
 .language {
   position: absolute;
-  top: 520px;
+  top: 500px;
   left: 24px;
   font-size: 36px;
   color: white;
@@ -157,11 +157,11 @@ header {
 .skills {
   display: flex;
   position: absolute;
-  top: 600px;
+  top: 580px;
 }
 
 .skill-set {
-  padding: 0 40px;
+  padding: 0 36px;
   display: flex;
 }
 
@@ -178,13 +178,13 @@ header {
 
 .main-profiles {
   position: absolute;
-  top: 720px;
+  top: 700px;
   left: 24px;
   color: white;
 }
 
 .profile-name {
-  font-size: 64px;
+  font-size: 60px;
   margin-left: 200px;
   font-family: Ms PGothic;
 }
@@ -194,7 +194,7 @@ header {
 }
 
 .profile {
-  font-size: 24px;
+  font-size: 20px;
   margin-left: 80px;
   text-align: center;
   font-family: Yu Mincho;
@@ -263,9 +263,9 @@ header {
 .containers-2 {
   position: relative;
   display: inline-block;
-  left: 560px;
+  left: 500px;
   margin: 16px 0;
-  padding: 16px 16px;
+  padding: 16px 8px;
   color: black;
   font-size: 24px;
   background: #eee;
@@ -296,11 +296,11 @@ header {
 
 .services-2 {
   position: relative;
-  margin: 32px 24px 72px;
-  padding: 32px 80px;
+  margin: 32px 8px 72px;
+  padding: 32px 32px;
   border: solid 3px white;
   border-radius: 8px;
-  width: 46%;
+  width: 40%;
   float: left;
   background-image: url(img/backgroud-pc.png);
   background-repeat: no-repeat;
@@ -336,10 +336,11 @@ header {
 
 
 .service-flow {
-  color: white;
+  display: inline-block;
+  color: white;  
   font-size: 48px;
-  margin: 0 64px;
-  padding: 64px 0 16px;
+  margin: 24px 64px;
+  padding: 24px 0 16px;
 }
 
 .numbers {
