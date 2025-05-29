@@ -38,9 +38,11 @@ header {
   left: 720px;
 }
 
+
+
 /* hamburger */
 
-.overlay {
+.overlay{
   position: fixed;
   top: 0;
   bottom: 0;
@@ -204,6 +206,7 @@ header {
   width: 60%;
 }
 
+
 .main-profile {
   font-size: 20px;
   margin-left: 200px;
@@ -215,6 +218,7 @@ header {
   right: -480px;
   top: -80px;
 }
+
 
 .services {
   background-image: url(img/background-brown.png);
@@ -330,6 +334,7 @@ header {
   font-family: Yu Mincho;
 }
 
+
 .service-flow {
   color: white;
   font-size: 48px;
@@ -370,7 +375,6 @@ header {
   background-blend-mode: lighten;
   border-top: solid 5px #d48845;
   box-shadow: 0 3px 5px #805d46;
-  font-size: 24px;
   width: 50%;
 }
 
@@ -382,6 +386,7 @@ header {
   margin: 0;
   padding: 0;
 }
+
 
 .hr-2 {
   border-top: 2px solid white;
@@ -436,6 +441,7 @@ header {
   padding-left: 88px;
   height: 1600px;
 }
+
 
 .background-end{
   vertical-align: bottom;

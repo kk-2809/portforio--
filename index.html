@@ -6,28 +6,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ポートフォリオ</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="style3.css">
 </head>
 
 <body>
   <header>
     <img src="img/background-darkbrown.jpeg" class="background-darkbrown">
     <img src="img/icon.png" class="icon">
-    <div class="overlay" id="js-hamburger">
-      <div class="hamburger-menu">
+    <div class="overlay">
+      <div class="hamburger-menu" id="js-hamburger">
         <div class="hamburger-line"></div>
         <div class="hamburger-line"></div>
         <div class="hamburger-line"></div>
       </div>
       <div class="nav" id="js-nav">
-        <ul class="ha">
-          <li class="ha-li"><a href="#" id="menu">profile</a></li>
-          <li class="ha-li"><a href="#" id="menu">service</a></li>
-          <li class="ha-li"><a href="#" id="menu">my work</a></li>
+        <ul class="ha" id="menu">
+          <li class="ha-li"><a href="#profile-link">profile</a></li>
+          <li class="ha-li"><a href="#service-link">service</a></li>
+          <li class="ha-li"><a href="#work-link">my work</a></li>
         </ul>
       </div>
     </div>
-    <div class="title">Portfolio</div>
-    <div class="title-name">KATO KOKORO</div>
+        <div class="title">Portfolio</div>
+        <div class="title-name">KATO KOKORO</div>
   </header>
   <main>
     <img src="img/background-litebrown.jpeg" class="background-litebrown">
@@ -47,13 +49,13 @@
       </div>
       <div class="skill-set">
         <img src="img/GitHub.jpg" class="skill-img">
-        <div class="skill">GitHubt</div>
+        <div class="skill">GitHub</div>
       </div>
     </div>
-    <div class="main-profiles">
+    <div class="main-profiles" a id="profile-link">
       <div class="profile-name">加<span class="name">藤</span>こころ</div>
-      <div class="profile">まだまだ経験は浅いですが、クライアントの<br>ご要望に合わせ伝えたいことを正確に伝えられる<br>作品を作成できるようなプログラマーを<br>目指します。</div>
-      <hr class="hr-1">
+      <div class="profile">まだまだ経験は浅いですが、<br>クライアントのご要望に合わせ<br>伝えたいことを正確に伝えられる<br>作品を作成できるような<br>プログラマーを目指します。</div>
+      <hr class="hr-1 hr-anime">
       <ul class="main-profile">
         <li class="contain">生年月日:1999.09.28</li>
         <li class="contain">住んでいる県:宮城県</li>
@@ -63,7 +65,7 @@
       <img src="img/myphoto.png" class="myphoto">
     </div>
     <div class="services">
-      <div class="service">～サービスにあたり下記の点を心掛けております～</div>
+      <div class="service" a id="service-link">～サービスにあたり下記の点を心掛けております～</div>
       <div class="containers-1">
         <p class="container-1">人がどう捉えどう感じるかを想像しながら作品を作ることができます。<br>またクライアントのこのようにしたい！という気持ちを汲み取り<br>ご期待に応えられるような作品を作ります。
         </p>
@@ -112,7 +114,7 @@
         </div>
       </div>
       <hr class="hr-2">
-      <div class="work" id="work">MY WORK</div>
+      <div class="work" a id="work-link">MY WORK</div>
       <div class="work-all">
         <div class="screenshot-cafeall">
           <div class="screenshot-cafe">
