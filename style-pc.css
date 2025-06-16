@@ -26,7 +26,7 @@ header {
   overflow: hidden;
   height: 100vh;
   background-image: url(img/img-background/background-darkbrown.jpeg);
-  background-size: 80%;
+  background-size: 90%;
 
 }
 
@@ -147,7 +147,7 @@ header {
 .background-litebrown{
   background-image: url(img/img-background/background-litebrown.jpeg);
   height: 100vh;
-  background-size: 80%;
+  background-size: 90%;
 }
 
 .language {
@@ -458,7 +458,7 @@ header {
 footer{
   background-image: url(img/img-background/background-end.png);
   height: 100vh;
-  background-size: 80%;
+  background-size: 90%;
 }
 
 .inquiry-form .inquiry-button{
