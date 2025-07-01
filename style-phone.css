@@ -8,17 +8,15 @@
   header {
     overflow: hidden;
     height: 100vh;
-    background-repeat: no-repeat;
     background-image: url(img/img-background/background-darkbrown.jpeg);
     background-size: 184%;
   }
   
   .icon{
-    width: 52%;
-    height: 40%;
-    position: absolute;
-    left: 320px;
-    top: 200px;
+    width: calc(100% - 240px);
+    height: 50%;
+    display: block;
+    margin: 124px 0 0 280px;
   }
 
   .ha-li a {
@@ -70,7 +68,6 @@
   
   .skills {
     display: flex;
-    position: absolute;
     top: 600px;
   }
 
@@ -84,12 +81,12 @@
     height: 40px;
   }
   
-  .skill {
+  .skill-set p {
     font-size: 24px;
     margin: 4px 0 0 4px;
     font-family: "Comic Sans MS";
   }
-  
+
   .main-profiles {
     position: absolute;
     top: 720px;
@@ -99,41 +96,41 @@
 
   .main-profiles ul {
     font-size: 20px;
-    margin-left: 36px;
+    margin-left: 32px;
   }  
   
   .profile-name {
     font-size: 36px;
-    margin-left: 80px;
+    margin-left: 64px;
     font-family: Ms PGothic;
   }
   
   .profile {
-    font-size: 20px;
-    margin-left: 32px;
-    text-align: left;
+    font-size: 16px;
+    padding-left: 20px;
     font-family: Yu Mincho;
   }  
   
-  .hr-1 {
+  .main-profiles hr {
     border-top: 2px solid white;
-    margin: 24px 32px;
-    width: 50%;
+    margin: 24px 24px;
+    width: 40%;
   }
-  
-  .myphoto {
-    position: absolute;
-    width: 70%;
-    height: 90%;
-    left: 320px;
-    top: 36px;
+
+  .main-profiles ul {
+    font-size: 16px;
+    margin-left: 32px;
+  }
+
+  .main-profiles img {
+    width: calc(100% - 280px);
+    display: block;
+    margin: -420px 0 0 280px;
   }
 
   .services {
     background-image: url(img/img-background/background-brown.png);
-    background-repeat: no-repeat;
-    background-size: 160%;
-  
+    background-size: 100%;
   }
   
   .service {
@@ -211,17 +208,18 @@
     padding: 8px 0 4px;
   }
   
-  .number-1 {
+  .numbers p {
     color: white;
     font-size: 24px;
-    margin: 4px 32px 0;
+    margin: 16px 72px 0;
   }
   
-  .number-2 {
+  .numbers-2 p  {
     color: white;
     font-size: 24px;
-    margin: 4px 32px 0;
+    margin: 16px 72px 0;
   }
+  
   
   .flow {
     padding: 8px 8px;
@@ -236,14 +234,15 @@
     background-blend-mode: lighten;
     border-top: solid 5px #d48845;
     box-shadow: 0 3px 5px #805d46;
-    width: 50%;
+    width: calc(100% - 240px);
   }
   
-  .flow-1 {
+  .flow p {
     font-size: 12px;
   }
+  
 
-  .hr-2 {
+  .hr-1 {
     border-top: 2px solid white;
     margin: 40px 60px 24px;
     width: 75%;
@@ -271,20 +270,19 @@
     height: 320px;
     z-index: 10000;
   }
-  
-  .work-contain {
-    margin: 8px 0 8px 120px;
-    position: absolute;
+
+  .screenshot-cafeall p {
+    margin: 16px 0 8px 240px;
     color: white;
   }
   
-  .cafe-site {
+  .screenshot-cafeall a {
     display: inline-block;
-    margin: 28px 0 20px 96px;
+    margin: 4px 0 32px 160px;
     text-decoration: none;
     color: white;
   }
-  
+
   .screenshot-artist{
     overflow-y: scroll;
     width: 100%;
@@ -292,24 +290,23 @@
     z-index: 10000;
   }
   
-  .artist-img {
+  .screenshot-artist img {
     padding-left: 88px;
     height: 1600px;
   }
-
+  
 
   /* footer */
   footer{
     background-image: url(img/img-background/background-end.png);
     height: 100vh;
-    background-size: 400%;
-    background-repeat: no-repeat;
+    background-size: 200%;
   }
   
   
   .inquiry-form .inquiry-button{
     position: absolute;
-    top: 3400px;
+    top: 3500px;
     left: 200px;
     display: flex;
     justify-content: space-around;

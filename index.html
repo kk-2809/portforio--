@@ -12,7 +12,7 @@
 
 <body>
   <header>
-    <img src="img/profile/icon.png" class="icon">
+    <img src="img/profile/icon.png" class="icon" id="target-icon">
     <div class="overlay">
       <div class="hamburger-menu" id="js-hamburger">
         <div class="hamburger-line"></div>
@@ -28,60 +28,71 @@
       </div>
     </div>
     <div class="title">Portfolio</div>
-    <div class="title-name">KATO KOKORO</div>
+    <div class="title-name">
+      <span>K</span>
+      <span>A</span>
+      <span>T</span>
+      <span>O</span>
+      <span>K</span>
+      <span>O</span>
+      <span>K</span>
+      <span>O</span>
+      <span>R</span>
+      <span>O</span>
+    </div>
   </header>
   <main>
     <article class="background-litebrown">
       <div class="language">使用言語</div>
-      <section class="skills">
+      <section class="skills" id="target-skill">
         <div class="skill-set">
           <img src="img/profile/html.png" class="skill-img">
-          <div class="skill">HTML</div>
+           <p>HTML</p>
         </div>
         <div class="skill-set">
           <img src="img/profile/css.png" class="skill-img">
-          <div class="skill">CSS</div>
+          <p>CSS</p>
         </div>
         <div class="skill-set">
           <img src="img/profile/javascript.png" class="skill-img">
-          <div class="skill">JavaScript</div>
+          <p>JavaScript</p>
         </div>
         <div class="skill-set">
           <img src="img/profile/GitHub.jpg" class="skill-img">
-          <div class="skill">GitHub</div>
+          <p>GitHub</p>
         </div>
       </section>
-      <section class="main-profiles" a id="profile-link">
-        <div class="profile-name">加<span class="name">藤</span>こころ</div>
+      <section class="main-profiles" id="target">
+        <div class="profile-name" a id="profile-link">加<span>藤</span>こころ</div>
         <div class="profile">まだまだ経験は浅いですが、<br>クライアントのご要望に合わせ<br>伝えたいことを正確に伝えられる<br>作品を作成できるような<br>プログラマーを目指します。</div>
-        <hr class="hr-1 hr-anime">
+        <hr>
         <ul>
-          <li class="contain">生年月日:1999.09.28</li>
-          <li class="contain">住んでいる県:宮城県</li>
-          <li class="contain">趣味:カフェ巡り、Live参戦</li>
-          <li class="contain">メール:koko.rila.928@gmail.com</li>
+          <li>生年月日:1999.09.28</li>
+          <li>住んでいる県:宮城県</li>
+          <li>趣味:カフェ巡り、Live参戦</li>
+          <li>メール:koko.rila.928@gmail.com</li>
         </ul>
-        <img src="img/profile/myphoto.png" class="myphoto">
+        <img src="img/profile/myphoto.png">
       </section>
     </article>
-    <article class="services">
-      <div class="service" a id="service-link">～サービスにあたり下記の点を心掛けております～</div>
-      <div class="containers-1">
+    <article class="services" a id="service-link">
+      <div class="service" id="service-target">～サービスにあたり下記の点を心掛けております～</div>
+      <div class="containers-1" id="contaiers-target">
         <p>人がどう捉えどう感じるかを想像しながら作品を作ることができます。<br>またクライアントのこのようにしたい！という気持ちを汲み取り<br>ご期待に応えられるような作品を作ります。
         </p>
       </div>
-      <div class="containers-2">
+      <div class="containers-2" id="contaiers2-target">
         <p>お任せいただいた案件は細部までこだわり、<br>よりよい作品を作ることができるよう努めます。</p>
       </div>
-      <div class="service-1">サービス</div>
-      <div class="services-2">
+      <div class="service-1" id="service1-target">サービス</div>
+      <div class="services-2" id="services2-target">
         <p class="service-2">LPコーディング</p>
         <p class="priceall">
           <p class="price">￥100,000-</p>
           <p class="prices">予算に合わせて作成も可能なのでお気軽にご相談ください。</p>
         </p>
       </div>
-      <div class="services-2">
+      <div class="services-2" id="services3-target">
         <p class="service-2">HPコーディング</p>
         <p class="priceall">
           <p class="price">￥200,000-</p>
@@ -94,41 +105,41 @@
         <p>②・・・</p>
       </div>
       <div class="flow-main">
-        <div class="flow">
+        <div class="flow" id="flow-target">
           <p>問い合わせフォームにてお問い合せ。<br>(ご相談のみでもお気軽にご連絡ください)</p>
         </div>
-        <div class="flow">
+        <div class="flow" id="flow2-target">
           <p>案件内容の確認・打ち合わせ<br>(メールorTEL)</p>
         </div>
       </div>
-      <div class="numbers-2">
+      <div class="numbers">
         <p>③・・・</p>
         <p>④・・・</p>
       </div>
       <div class="flow-main">
-        <div class="flow">
+        <div class="flow" id="flow3-target">
           <p>制作<br>(納期は依頼内容によって調整)</p>
         </div>
-        <div class="flow">
+        <div class="flow"  id="flow4-target">
           <p>完成したサイトの<br>確認&修正</p>
         </div>
       </div>
-      <hr class="hr-2">
-      <div class="work" a id="work-link">MY WORK</div>
+      <hr class="hr-1" a id="work-link">
+      <div class="work" id="work-target">MY WORK</div>
       <div class="work-all">
         <div class="screenshot-cafeall">
-          <div class="screenshot-cafe">
-            <img src="img/service/screenshot@cafe.png" class="cafe-img">
+          <div class="screenshot-cafe" id="screenshot1-target">
+            <img src="img/service/screenshot@cafe.png">
           </div>
-          <div class="work-contain">カフェ紹介</div>
-          <a href="https://kk-2809.github.io/cafesite/" class="cafe-site">https://kk-2809.github.io/cafesite/</a>
+          <p id="produce-target">カフェ紹介</p>
+          <a href="https://kk-2809.github.io/cafesite/" id="site-target">https://kk-2809.github.io/cafesite/</a>
         </div>
         <div class="screenshot-cafeall">
-          <div class="screenshot-artist">
-            <img src="img/service/screenshot@artist.jpeg" class="artist-img">
+          <div class="screenshot-artist" id="screenshot2-target">
+            <img src="img/service/screenshot@artist.jpeg">
           </div>
-          <div class="work-contain">アーティスト紹介</div>
-          <a href="https://kk-2809.github.io/artistsite/" class="cafe-site">https://kk-2809.github.io/artistsite/</a>
+          <p id="produce2-target">アーティスト紹介</p>
+          <a href="https://kk-2809.github.io/artistsite/" id="site2-target">https://kk-2809.github.io/artistsite/</a>
         </div>
       </div>
     </article>
