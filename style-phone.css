@@ -89,7 +89,7 @@
 
   .main-profiles {
     position: absolute;
-    top: 1020px;
+    top: 960px;
     left: 32px;
     color: white;
   }
@@ -126,7 +126,7 @@
     width: calc(100% - 120px);
     height: 80%;
     display: block;
-    margin: 20px 0 0 40px;
+    margin: 0 0 0 40px;
   }
 
   .services {
