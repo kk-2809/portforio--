@@ -41,7 +41,7 @@
   
   .title-name {
     position: absolute;
-    bottom: 420px;
+    bottom: 360px;
     right: 50px;
     color: white;
     font-size: 20px;
@@ -54,12 +54,12 @@
   .background-litebrown{
     background-image: url(img/img-background/background-litebrown.jpeg);
     height: 100vh;
-    background-size: 184%;
+    background-size: 100%;
   }  
 
   .language {
     position: absolute;
-    top: 880px;
+    top: 720px;
     left: 24px;
     font-size: 28px;
     color: white;
@@ -143,9 +143,9 @@
   .containers-1 {
     position: relative;
     display: inline-block;
-    margin: 32px 0;
+    margin: 32px 0 32px -32px;
     color: black;
-    font-size: 16px;
+    font-size: 12px;
     background: #eee;
     border-radius: 15px;
     text-align: center;
@@ -154,11 +154,11 @@
   .containers-2 {
     position: relative;
     display: inline-block;
-    left: 80px;
+    left: 20px;
     margin: 8px 0;
     padding: 16px 16px;
     color: black;
-    font-size: 16px;
+    font-size: 12px;
     background: #eee;
     border-radius: 15px;
     text-align: center;
@@ -211,16 +211,9 @@
   .numbers p {
     color: white;
     font-size: 24px;
-    margin: 16px 72px 0;
+    margin: 16px 48px 0;
   }
-  
-  .numbers-2 p  {
-    color: white;
-    font-size: 24px;
-    margin: 16px 72px 0;
-  }
-  
-  
+    
   .flow {
     padding: 8px 8px;
     margin: 8px 24px;
@@ -306,7 +299,7 @@
   
   .inquiry-form .inquiry-button{
     position: absolute;
-    top: 4600px;
+    top: 4280px;
     left: 120px;
     display: flex;
     justify-content: space-around;

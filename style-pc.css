@@ -500,10 +500,6 @@ header {
   display: flex;
 }
 
-.numbers-2{
-  display: flex;
-}
-
 .numbers p {
   color: white;
   font-size: 48px;
