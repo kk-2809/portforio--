@@ -8,15 +8,15 @@
   header {
     overflow: hidden;
     height: 100vh;
-    background-image: url(img/img-background/background-darkbrown.jpeg);
+    background-image: url(../img/img-background/background-darkbrown.jpeg);
     background-size: 100%;
   }
   
   .icon{
-    width: calc(100% - 40px);
-    height: 40%;
+    width: 40%;
+    height: 30%;
     display: block;
-    margin: 124px 0 0 80px;
+    margin: 320px 0 0 200px;
   }
 
   .ha-li a {
@@ -32,17 +32,17 @@
   
   .title {
     position: absolute;
-    top: 400px;
-    right: 40px;
-    font-size: 52px;
+    top: 560px;
+    left: 240px;
+    font-size: 32px;
     color: white;
     font-family: "Comic Sans MS";
   }
   
   .title-name {
     position: absolute;
-    bottom: 360px;
-    right: 50px;
+    left: 64px;
+    top: 640px;
     color: white;
     font-size: 20px;
     font-family: Yu Mincho;
@@ -52,16 +52,16 @@
   /* main */
 
   .background-litebrown{
-    background-image: url(img/img-background/background-litebrown.jpeg);
+    background-image: url(../img/img-background/background-litebrown.jpeg);
     height: 100vh;
     background-size: 100%;
   }  
 
   .language {
     position: absolute;
-    top: 720px;
+    top: 880px;
     left: 24px;
-    font-size: 28px;
+    font-size: 16px;
     color: white;
     font-family: Yu Mincho;
   }
@@ -72,13 +72,13 @@
   }
 
   .skill-set {
-    padding: 0 4px;
+    padding: 0 8px;
     display: flex;
   }  
 
   .skill-img {
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
   }
   
   .skill-set p {
@@ -89,48 +89,43 @@
 
   .main-profiles {
     position: absolute;
-    top: 960px;
-    left: 32px;
+    top: 1020px;
+    left: 4px;
     color: white;
   }
 
-  .main-profiles ul {
-    font-size: 20px;
-    margin-left: 32px;
-  }  
-  
   .profile-name {
-    font-size: 36px;
-    margin-left: 64px;
+    font-size: 24px;
+    margin-left: 120px;
     font-family: Ms PGothic;
   }
   
   .profile {
     font-size: 16px;
-    padding-left: 20px;
+    padding-left: 88px;
     font-family: Yu Mincho;
   }  
   
   .main-profiles hr {
     border-top: 2px solid white;
-    margin: 24px 24px;
-    width: 40%;
-  }
+    margin: 48px 64px;
+    width: 60%;
+  }  
 
   .main-profiles ul {
     font-size: 16px;
-    margin-left: 32px;
+    margin-left: 88px;
   }
 
   .main-profiles img {
     width: calc(100% - 120px);
     height: 80%;
     display: block;
-    margin: 0 0 0 40px;
+    margin: 0 0 0 80px;
   }
 
   .services {
-    background-image: url(img/img-background/background-brown.png);
+    background-image: url(../img/img-background/background-brown.png);
     background-size: 100%;
   }
   
@@ -178,7 +173,7 @@
     border-radius: 8px;
     width: 60%;
     float: left;
-    background-image: url(img/img-background/backgroud-pc.png);
+    background-image: url(../img/img-background/backgroud-pc.png);
     background-repeat: no-repeat;
     background-size: 120%;
   }
@@ -220,7 +215,7 @@
     text-align: center;
     color: black;
     background: #eee;
-    background-image: url(img/service/PC.png);
+    background-image: url(../img/service/PC.png);
     background-size: 120%;
     background-repeat: no-repeat;
     background-color: rgba(255, 255, 255, 0.51);
@@ -291,7 +286,7 @@
 
   /* footer */
   footer{
-    background-image: url(img/img-background/background-end.png);
+    background-image: url(../img/img-background/background-end.png);
     height: 100vh;
     background-size: 200%;
   }
